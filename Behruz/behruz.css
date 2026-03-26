@@ -1,4 +1,8 @@
-* {
+header {
+  background-color: #F2CEDA;
+  padding-top: 10px;
+}
+header * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,25 +10,24 @@
   list-style: none;
   font-family: "Fredoka", sans-serif;
 }
-
-.container {
-  max-width: 1200px;
+header .container {
+  max-width: 1125px;
   width: 100%;
   margin: 0 auto;
-  background-color: #F2CEDA;
-  padding: 15px 25px;
+  padding: 15px;
 }
-.container .navbar {
+header .navbar {
   display: flex;
-  justify-content: space-between;
-  margin-top: 25px;
-}
-.container .navbar ul {
-  display: flex;
-  gap: 40px;
   align-items: center;
+  justify-content: space-between;
 }
-.container .navbar ul a {
+header .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+header .navbar ul a {
   color: #150101;
   font-weight: 400;
   font-size: 14px;
@@ -32,11 +35,12 @@
   letter-spacing: 0%;
   transition: all 0.5s;
 }
-.container .navbar ul a:hover {
+header .navbar ul a:hover {
   color: #D23166;
 }
-.container .navbar button {
-  padding: 14px 50px;
+header .navbar button {
+  width: 165px;
+  height: 49px;
   background-color: #D23166;
   border: none;
   border-radius: 5px;
@@ -46,13 +50,21 @@
   line-height: 100%;
   letter-spacing: 0%;
 }
-.container .showcase {
+header .showcase {
   margin-top: 40px;
 }
-.container .showcase .qwe {
+header .showcase .qwe {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 140px;
 }
-.container .showcase h4 {
+header .showcase .qwe .left {
+  width: 665px;
+  position: absolute;
+}
+header .showcase .qwe .left h4 {
   font-weight: 500;
   font-size: 14px;
   line-height: 100%;
@@ -60,7 +72,7 @@
   color: #0F0101;
   margin-bottom: 6px;
 }
-.container .showcase h1 {
+header .showcase .qwe .left h1 {
   font-weight: 400;
   font-size: 57.33px;
   line-height: 121%;
@@ -68,14 +80,14 @@
   color: #0F0101;
   margin-bottom: 35px;
 }
-.container .showcase span {
+header .showcase .qwe .left span {
   font-weight: 400;
   font-size: 57.33px;
   line-height: 121%;
   letter-spacing: 0%;
   color: #D23166;
 }
-.container .showcase p {
+header .showcase .qwe .left p {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
@@ -83,8 +95,9 @@
   color: #0F0101;
   margin-bottom: 50px;
 }
-.container .showcase button {
-  padding: 14px 50px;
+header .showcase .qwe .left button {
+  width: 165px;
+  height: 49px;
   background-color: #D23166;
   border: none;
   border-radius: 5px;
@@ -94,15 +107,19 @@
   line-height: 100%;
   letter-spacing: 0%;
 }
-.container .showcase .right {
+header .showcase .qwe .right {
   position: relative;
+  left: 644px;
 }
-.container .showcase .right .asd {
+header .showcase .qwe .right .asd {
   width: 597px;
   height: 597px;
 }
-.container .showcase .right .zxc {
+header .showcase .qwe .right .zxc {
+  width: 852px;
+  height: 548px;
+  transform: rotate(10deg) translate(90px);
   position: absolute;
-  right: 1mm;
-  top: 50px;
+  right: 1px;
+  top: 130px;
 }/*# sourceMappingURL=behruz.css.map */
