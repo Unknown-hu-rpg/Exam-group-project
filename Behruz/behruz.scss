@@ -109,9 +109,19 @@
             letter-spacing: 0%;
         }
 
-        .asd{
-            width: 597px;
-            height: 597px;
+
+        .right{
+            position: relative;
+            .asd{
+                width: 597px;
+                height: 597px;
+            }
+    
+            .zxc{
+                position: absolute;
+                right: 1mm;
+                top: 50px;
+            }
         }
     }
 }

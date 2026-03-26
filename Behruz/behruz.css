@@ -94,7 +94,15 @@
   line-height: 100%;
   letter-spacing: 0%;
 }
-.container .showcase .asd {
+.container .showcase .right {
+  position: relative;
+}
+.container .showcase .right .asd {
   width: 597px;
   height: 597px;
+}
+.container .showcase .right .zxc {
+  position: absolute;
+  right: 1mm;
+  top: 50px;
 }/*# sourceMappingURL=behruz.css.map */
