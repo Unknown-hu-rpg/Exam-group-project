@@ -1,67 +1,226 @@
-*{
+* {
       padding: 0;
       margin: 0;
       box-sizing: border-box;
       text-decoration: none;
       list-style: none;
-       font-family: "Roboto", sans-serif;
+      font-family: "Roboto", sans-serif;
 }
 
 
-.container{
+.icecream {
+      padding-top: 98px;
+      height: 2250px;
+}
+
+
+
+.container {
       max-width: 1160px;
       margin: 0 auto;
 }
 
-.text{
+
+.text {
       text-align: center;
 }
 
-.ice-list{
+.ice-list {
       display: flex;
       justify-content: center;
       padding-top: 64px;
       gap: 39px;
-    
+
 }
 
 
-.ice-link{
+.ice-link {
       color: #00000098;
       font-size: 18px;
       font-weight: 500;
-      transition: all ease-in-out 0.3s; 
-    
+      transition: all ease-in-out 0.3s;
+
 }
-.ice-link:hover{
+
+.ice-link:hover {
       color: #000000;
-      border-bottom: 1px solid #D64374 ;
+      border-bottom: 1px solid #D64374;
 }
 
 
-
-
-.icecream{
-      padding-top: 98px;
-      height: 2346px;   
-}
-
-.ice-2{
+.ice-2 {
       display: flex;
-      width:  1119px;
+      width: 1119px;
+      height: 415px;
       justify-content: space-between;
       align-items: center;
+      padding-top: 50px;
 }
 
-.ice.img{
+.ice-img {
       width: 580px;
       height: 415px;
 }
 
-.ice2.righ{
-      max-width: 454px  ;
+.ice-right-text {
+      font-size: 26px;
+      color: rgba(0, 0, 0, 1);
+      font-weight: 700;
+      line-height: 100%;
+      transform: translateY(-11px);
 }
 
-.ice2_para{
+.ice2-right {
+      max-width: 454px;
+}
+
+.ice2_para {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #00000098;
       width: 454px;
+}
+
+.ice-prices {
+      display: flex;
+      gap: 5px;
+      padding-top: 28px;
+}
+
+.ice-price {
+      font-size: 26px;
+      font-weight: 500;
+
+}
+
+.ice-price2 {
+      font-size: 20px;
+      font-weight: 500;
+      text-decoration: line-through;
+      color: #00000098;
+      padding-top: 5px;
+}
+
+.ice-buttton {
+      color: #FAFAFA;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+      background-color: #D64374;
+      padding: 15px 45px;
+      transform: translateY(15px);
+      border-radius: 10px;
+      border: 0px;
+}
+
+.ice-3 {
+      transform: translateX(100px);
+      display: flex;
+      justify-content: space-between;
+      max-width: 1108px;
+}
+
+.ice3-right {
+      padding-top: 80px;
+      max-width: 444px;
+      align-items: end;
+}
+
+.ice-right-text3 {
+      font-size: 26px;
+      text-align: end;
+      padding-bottom: 11px;
+      color: rgba(0, 0, 0, 1);
+      font-weight: 700;
+      line-height: 100%;
+}
+
+.ice3_para {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      text-align: end;
+      color: #00000098;
+      width: 444px;
+}
+
+.ice-prices3 {
+      display: flex;
+      gap: 5px;
+      padding-top: 28px;
+      justify-content: end;
+      margin-bottom: 9px;
+}
+
+
+.ice-price3 {
+      font-size: 26px;
+      font-weight: 500;
+
+}
+
+.ice-price4 {
+      font-size: 20px;
+      font-weight: 500;
+      text-decoration: line-through;
+      color: #00000098;
+      padding-top: 5px;
+}
+
+.ice-buttton2 {
+      color: #FAFAFA;
+      font-size: 16px;
+      font-weight: 500;
+      background-color: #D64374;
+      padding: 15px 45px;
+      transform: translateY(15px);
+      transform: translateX(295px);
+      border-radius: 10px;
+      border: 0px;
+}
+
+
+.final_case{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 150px;
+}
+
+.final-left{
+      padding-top: 90px;
+}
+
+.final_text{
+      display: flex;
+      gap: 25px;
+      align-items: center;
+}
+
+.adele_text{
+      font-size: 24px;
+      color: #000000;
+      font-weight: 500;
+}
+
+.adele_nation{
+      font-size: 12px;
+      color: #00000098;
+      padding-top: 5px;
+}
+
+.final_para{
+      padding-top: 50px;
+      width: 360px;
+}
+
+.final-text2{
+      display: flex;
+      align-items: center;
+      gap: 27px;
+      padding-top: 56px;
+}
+
+.icons{
+      color: #D64374;
 }
