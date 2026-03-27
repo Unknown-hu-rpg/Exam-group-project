@@ -14,7 +14,7 @@ header .container {
   max-width: 1125px;
   width: 100%;
   margin: 0 auto;
-  padding: 15px;
+  padding: 15px 0;
 }
 header .navbar {
   display: flex;
@@ -118,7 +118,7 @@ header .showcase .qwe .right .asd {
 header .showcase .qwe .right .zxc {
   width: 852px;
   height: 548px;
-  transform: rotate(10deg) translate(90px);
+  transform: rotate(15deg) translate(70px);
   position: absolute;
   right: 1px;
   top: 130px;
