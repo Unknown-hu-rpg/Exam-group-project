@@ -1,0 +1,47 @@
+main .sec-3 {
+  background: #F8EDF0;
+  height: 544px;
+}
+main .sec-3 .container {
+  max-width: 1125px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+main .sec-3 .container .info {
+  display: flex;
+  margin-top: 145px;
+  gap: 74px;
+}
+main .sec-3 .container .info h1 {
+  font-family: "Fredoka One", sans-serif;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 111%;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
+}
+main .sec-3 .container .info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #150101;
+  margin-bottom: 35px;
+  font-family: "Fredoka One", sans-serif;
+}
+main .sec-3 .container .info button {
+  padding: 15px 42px;
+  border: none;
+  border-radius: 5px;
+  background: #D64374;
+  color: #FAFAFA;
+  margin-bottom: 100px;
+  font-family: "Fredoka One", sans-serif;
+}
+main .sec-3 .container .info img {
+  width: 655px;
+  height: 655px;
+  position: absolute;
+  bottom: 325px;
+}/*# sourceMappingURL=madina.css.map */
