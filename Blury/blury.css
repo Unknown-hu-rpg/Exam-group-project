@@ -56,6 +56,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .footer .container {
@@ -81,6 +82,9 @@
   font-size: 0.9rem;
   line-height: 1.6;
   margin-bottom: 20px;
+}
+.footer-col .socials i {
+  font-size: 15px;
 }
 .footer-col h4 {
   color: white;
@@ -124,40 +128,6 @@
   padding: 0 20px;
   cursor: pointer;
 }
-
-@media (max-width: 768px) {
-  .question-section h2 {
-    font-size: 1.8rem;
-  }
-  .question-section .input-group {
-    flex-direction: column;
-    background: transparent;
-    box-shadow: none;
-    padding: 0;
-  }
-  .question-section .input-group input {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-  }
-  .question-section .input-group .btn-send {
-    width: 100%;
-  }
-  .footer {
-    text-align: center;
-  }
-  .footer .container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .footer .newsletter .subscribe-group {
-    flex-direction: column;
-    border: none;
-    gap: 10px;
-  }
-  .footer .newsletter .subscribe-group input, .footer .newsletter .subscribe-group .btn-sub {
-    border-radius: 5px;
-    height: 50px;
-  }
+.footer .newsletter .subscribe-group .payments i {
+  font-size: 25px;
 }/*# sourceMappingURL=blury.css.map */

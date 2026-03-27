@@ -79,7 +79,7 @@ header .showcase .qwe .left h1 {
   letter-spacing: 0%;
   color: #0F0101;
   margin-bottom: 35px;
-  font-family: "Fredoka One", sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 header .showcase .qwe .left span {
   font-weight: 400;
@@ -87,6 +87,7 @@ header .showcase .qwe .left span {
   line-height: 121%;
   letter-spacing: 0%;
   color: #D23166;
+  font-family: "Fredoka", sans-serif;
 }
 header .showcase .qwe .left p {
   font-weight: 400;

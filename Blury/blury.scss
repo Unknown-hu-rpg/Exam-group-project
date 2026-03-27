@@ -74,6 +74,7 @@ $input-bg: #222222;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -102,6 +103,12 @@ $input-bg: #222222;
       font-size: 0.9rem;
       line-height: 1.6;
       margin-bottom: 20px;
+    }
+
+    .socials{
+      i{
+        font-size: 15px;
+      }
     }
 
     h4 {
@@ -151,51 +158,56 @@ $input-bg: #222222;
         padding: 0 20px;
         cursor: pointer;
       }
-    }
-  }
-}
-
-
-@media (max-width: 768px) {
-  .question-section {
-    h2 { font-size: 1.8rem; }
-    
-    .input-group {
-      flex-direction: column;
-      background: transparent;
-      box-shadow: none;
-      padding: 0;
-
-      input {
-        width: 100%;
-        border-radius: 8px;
-        margin-bottom: 10px;
-        border: 1px solid #ddd;
-      }
-
-      .btn-send {
-        width: 100%;
-      }
-    }
-  }
-
-  .footer {
-    text-align: center;
-    
-    .container {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .newsletter .subscribe-group {
-      flex-direction: column;
-      border: none;
-      gap: 10px;
-
-      input, .btn-sub {
-        border-radius: 5px;
-        height: 50px;
+      .payments{
+        i{
+          font-size: 25px;
+        }
       }
     }
   }
 }
+
+
+// @media (max-width: 768px) {
+//   .question-section {
+//     h2 { font-size: 1.8rem; }
+    
+//     .input-group {
+//       flex-direction: column;
+//       background: transparent;
+//       box-shadow: none;
+//       padding: 0;
+
+//       input {
+//         width: 100%;
+//         border-radius: 8px;
+//         margin-bottom: 10px;
+//         border: 1px solid #ddd;
+//       }
+
+//       .btn-send {
+//         width: 100%;
+//       }
+//     }
+//   }
+
+//   .footer {
+//     text-align: center;
+    
+//     .container {
+//       flex-direction: column;
+//       align-items: center;
+//     }
+
+//     .newsletter .subscribe-group {
+//       flex-direction: column;
+//       border: none;
+//       gap: 10px;
+
+//       input, .btn-sub {
+//         border-radius: 5px;
+//         height: 50px;
+//       }
+//     }
+//   }
+// }
