@@ -65,6 +65,7 @@ header {
 
     .showcase {
         margin-top: 40px;
+        // padding-top: 196px;
 
         .qwe {
             display: flex;
@@ -72,10 +73,11 @@ header {
             justify-content: space-between;
             position: relative;
             padding-bottom: 140px;
+            padding-top: 196px;
 
             .left {
                 width: 665px;
-                position: absolute;
+                // position: absolute;
 
                 h4 {
                     font-weight: 500;
@@ -132,22 +134,25 @@ header {
 
             .right {
                 // transform: translate(116px);
-                position: relative;
-                left: 644px;
+                // position: relative;
+                // left: 644px;
 
 
                 .asd {
                     width: 597px;
                     height: 597px;
+                    position: absolute;
+                    left: 644px;
+                    top: 22px;
                 }
 
                 .zxc {
                     width: 852px;
                     height: 548px;
-                    transform: rotate(15deg) translate(70px);
+                    transform: rotate(15deg) translate(0);
                     position: absolute;
-                    right: 1px;
-                    top: 130px;
+                    left: 465px;
+                    top: 167px;
                 }
             }
         }

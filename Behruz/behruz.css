@@ -59,10 +59,10 @@ header .showcase .qwe {
   justify-content: space-between;
   position: relative;
   padding-bottom: 140px;
+  padding-top: 196px;
 }
 header .showcase .qwe .left {
   width: 665px;
-  position: absolute;
 }
 header .showcase .qwe .left h4 {
   font-weight: 500;
@@ -109,21 +109,20 @@ header .showcase .qwe .left button {
   line-height: 100%;
   letter-spacing: 0%;
 }
-header .showcase .qwe .right {
-  position: relative;
-  left: 644px;
-}
 header .showcase .qwe .right .asd {
   width: 597px;
   height: 597px;
+  position: absolute;
+  left: 644px;
+  top: 22px;
 }
 header .showcase .qwe .right .zxc {
   width: 852px;
   height: 548px;
-  transform: rotate(15deg) translate(70px);
+  transform: rotate(15deg) translate(0);
   position: absolute;
-  right: 1px;
-  top: 130px;
+  left: 465px;
+  top: 167px;
 }
 @media (max-width: 768px) {
   header .navbar {

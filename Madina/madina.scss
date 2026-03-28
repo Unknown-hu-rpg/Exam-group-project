@@ -15,6 +15,7 @@
             align-items: center;
             justify-content: space-between;
             padding: 145px 0;
+            position: relative;
             // gap: 74px;
 
             h1 {
@@ -48,14 +49,14 @@
             }
 
             .right{
-                position: relative;
+                // position: relative;
                 img{
                     width: 655px;
-                    height: 655px;
+                    height: 657px;
                     position: absolute;
-                    right: 1px;
-                    bottom: 1px;
-                    transform: translate(50px, 300px);
+                    left: 516px;
+                    top: -62px;
+                    // transform: translate(50px, 300px);
                 }
             }
 

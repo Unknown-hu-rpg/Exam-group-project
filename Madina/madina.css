@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 145px 0;
+  position: relative;
 }
 .sec-3 .container .info h1 {
   font-family: "Fredoka One", sans-serif;
@@ -39,14 +40,10 @@
   margin-bottom: 100px;
   font-family: "Fredoka One", sans-serif;
 }
-.sec-3 .container .info .right {
-  position: relative;
-}
 .sec-3 .container .info .right img {
   width: 655px;
-  height: 655px;
+  height: 657px;
   position: absolute;
-  right: 1px;
-  bottom: 1px;
-  transform: translate(50px, 300px);
+  left: 516px;
+  top: -62px;
 }/*# sourceMappingURL=madina.css.map */
