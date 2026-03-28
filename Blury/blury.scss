@@ -168,46 +168,46 @@ $input-bg: #222222;
 }
 
 
-// @media (max-width: 768px) {
-//   .question-section {
-//     h2 { font-size: 1.8rem; }
+@media (max-width: 768px) {
+  .question-section {
+    h2 { font-size: 1.8rem; }
     
-//     .input-group {
-//       flex-direction: column;
-//       background: transparent;
-//       box-shadow: none;
-//       padding: 0;
+    .input-group {
+      flex-direction: column;
+      background: transparent;
+      box-shadow: none;
+      padding: 0;
 
-//       input {
-//         width: 100%;
-//         border-radius: 8px;
-//         margin-bottom: 10px;
-//         border: 1px solid #ddd;
-//       }
+      input {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+      }
 
-//       .btn-send {
-//         width: 100%;
-//       }
-//     }
-//   }
+      .btn-send {
+        width: 100%;
+      }
+    }
+  }
 
-//   .footer {
-//     text-align: center;
+  .footer {
+    text-align: center;
     
-//     .container {
-//       flex-direction: column;
-//       align-items: center;
-//     }
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
 
-//     .newsletter .subscribe-group {
-//       flex-direction: column;
-//       border: none;
-//       gap: 10px;
+    .newsletter .subscribe-group {
+      flex-direction: column;
+      border: none;
+      gap: 10px;
 
-//       input, .btn-sub {
-//         border-radius: 5px;
-//         height: 50px;
-//       }
-//     }
-//   }
-// }
+      input, .btn-sub {
+        border-radius: 5px;
+        height: 50px;
+      }
+    }
+  }
+}
