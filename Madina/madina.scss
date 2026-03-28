@@ -1,0 +1,64 @@
+.sec-3 {
+    background: #F8EDF0;
+    margin-top: 100px;
+    // height: 544px;
+    .container {
+        max-width: 1125px;
+        width: 100%;
+        margin: 0 auto;
+        // padding: 15px 0;
+        // border-left: 1px solid black;
+        // border-right: 1px solid black;
+
+        .info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 145px 0;
+            // gap: 74px;
+
+            h1 {
+                font-family: 'Fredoka One', sans-serif;
+                font-weight: 600;
+                font-size: 44.2px;
+                line-height: 111.00000000000001%;
+                letter-spacing: 0%;
+                margin-bottom: 16px;
+                
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0%;
+                color: #150101;
+                margin-bottom: 35px;
+                font-family: 'Fredoka One', sans-serif;
+            }
+
+            button{
+                padding: 15px  42px;
+                border: none;
+                border-radius: 5px;
+                background: #D64374;
+                color: #FAFAFA;
+                margin-bottom: 100px;
+                font-family: 'Fredoka One', sans-serif;
+            }
+
+            .right{
+                position: relative;
+                img{
+                    width: 655px;
+                    height: 655px;
+                    position: absolute;
+                    right: 1px;
+                    bottom: 1px;
+                    transform: translate(50px, 300px);
+                }
+            }
+
+        }
+    }
+}
