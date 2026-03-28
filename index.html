@@ -10,6 +10,75 @@
     <link rel="stylesheet" href="./Behruz/behruz.css">
     <link rel="stylesheet" href="./Blury/blury.css">
     <link rel="stylesheet" href="./Madina/madina.css">
+    <link rel="stylesheet" href="./Tohir/style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-30px) rotate(3deg);
+            }
+        }
+
+        @keyframes blob {
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            33% {
+                transform: translate(30px, -50px) scale(1.1);
+            }
+
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .animate-blob {
+            animation: blob 10s infinite alternate;
+        }
+
+        .reveal {
+            opacity: 0;
+            animation: slideUp 0.8s ease-out forwards;
+        }
+
+        .delay-1 {
+            animation-delay: 0.2s;
+        }
+
+        .delay-2 {
+            animation-delay: 0.4s;
+        }
+
+        .delay-3 {
+            animation-delay: 0.6s;
+        }
+    </style>
 </head>
 
 <body>
@@ -89,8 +158,9 @@
                 <div class="info">
                     <div class="left">
                         <h1>Brown Sugar <br> Oatmea</h1>
-                        <p>Together with McDonald’s, Burger King has grown to become <br> synonymous with burgers in the US.Together with McDonald’s, <br> Burger King has grown to become synonymous.</p>
-    
+                        <p>Together with McDonald’s, Burger King has grown to become <br> synonymous with burgers in the
+                            US.Together with McDonald’s, <br> Burger King has grown to become synonymous.</p>
+
                         <button>See Details</button>
                     </div>
                     <div class="right">
@@ -98,6 +168,163 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="icecream">
+            <div class="container">
+
+                <h2 class="text">Our product</h2>
+                <div class="ice">
+                    <ul class="ice-list">
+                        <li><a href="" class="ice-link">ICE CREAM</a></li>
+                        <li><a href="#ice-3" class="ice-link">CAYENNE CHOCOLATE</a></li>
+                        <li><a href="" class="ice-link">CAKE BATTER</a></li>
+                        <li><a href="" class="ice-link">CANDY CANE</a></li>
+                        <li><a href="" class="ice-link">PLATTERS</a></li>
+                        <li><a href="" class="ice-link">DESSERT</a></li>
+                    </ul>
+                </div>
+
+                <div class="ice-2">
+                    <img src="./Tohir/img/Rectangle 74.png" alt="#" class="ice-img">
+                    <div class="ice2-right">
+                        <h2 class="ice-right-text">Brown bread</h2>
+                        <p class="ice2_para">Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain
+                            is a pioneer in the
+                            healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.</p>
+                        <div class="ice-prices">
+                            <h2 class="ice-price">$19.55</h2>
+                            <h2 class="ice-price2">$22.55</h2>
+                        </div>
+                        <button class="ice-buttton">Buy now</button>
+                    </div>
+                </div>
+                <div class="ice-3" id="ice-3">
+                    <div class="ice3-right">
+                        <h2 class="ice-right-text3">Cayenne chocolate</h2>
+                        <p class="ice3_para">Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain
+                            is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy
+                            fast food scene.</p>
+                        <div class="ice-prices3">
+                            <h2 class="ice-price3">$19.55</h2>
+                            <h2 class="ice-price4">$22.55</h2>
+                        </div>
+                        <button class="ice-buttton2">Buy now</button>
+                    </div>
+                    <img src="./Tohir/img/Rectangle 78.png" alt="#" class="ice-img">
+                </div>
+                <div class="ice-2">
+                    <img src="./Tohir/img/Rectangle 79.png" alt="#" class="ice-img">
+                    <div class="ice2-right">
+                        <h2 class="ice-right-text">Sweet corn</h2>
+                        <p class="ice2_para">Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain
+                            is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy
+                            fast food scene.</p>
+                        <div class="ice-prices">
+                            <h2 class="ice-price">$19.55</h2>
+                            <h2 class="ice-price2">$22.55</h2>
+                        </div>
+                        <button class="ice-buttton">Buy now</button>
+                    </div>
+                </div>
+                <div class="final_case">
+
+                    <div class="final-left">
+                        <div class="final_text">
+                            <img src="./Tohir/img/Group 114.png" alt="#" class="final_img">
+                            <div class="div">
+                                <h2 class="adele_text"> Adele A. McNeill</h2>
+                                <p class="adele_nation">AMIRICAN</p>
+                            </div>
+                        </div>
+
+                        <p class="final_para"><img src="./Tohir/img/Group (4).png" alt=""> Thanks a lot for the prompt
+                            service. Really appreciate. Excellence taste in Every Bite.Add a joy of best Taste.
+                            Foodie Moments. <img src="./img/Group (5).png" alt=""> </p>
+
+                        <div class="final-text2">
+                            <i class="fa-solid fa-chevron-left icons"></i>
+                            <img src="./Tohir/img/Mask Group.png" alt="">
+                            <img src="./Tohir/img/Group 123.png" alt="">
+                            <img src="./Tohir/img/Mask Group2.png" alt="">
+                            <i class="fa-solid fa-chevron-right icons"></i>
+                        </div>
+                    </div>
+                    <div class="final-right">
+
+                        <img src="./Tohir/img/uLkF7xc5W6-removebg-preview 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="section5">
+            <div
+                class="bg-[#FFF9FA] min-h-screen flex items-center justify-center p-10 font-sans overflow-hidden relative">
+
+                <!-- ДИНАМИЧНЫЙ ФОН -->
+                <div
+                    class="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-pink-200 rounded-full blur-[120px] opacity-40 animate-blob">
+                </div>
+                <div class="absolute bottom-[-10%] right-[-10%] w-[600px] h-[600px] bg-purple-100 rounded-full blur-[120px] opacity-40 animate-blob"
+                    style="animation-delay: 2s;"></div>
+
+                <div class="max-w-7xl w-full grid lg:grid-cols-2 gap-16 items-center relative z-10">
+
+                    <!-- ЛЕВАЯ ЧАСТЬ: ГИГАНТСКОЕ МОРОЖЕНОЕ -->
+                    <div class="relative flex justify-center items-center group">
+                        <div class="relative animate-float">
+                            <!-- Тень под мороженым, которая тоже меняется -->
+                            <div
+                                class="absolute bottom-[-20px] left-1/2 -translate-x-1/2 w-48 h-10 bg-black/10 blur-xl rounded-full scale-x-110">
+                            </div>
+
+                            <img src="./Shhohruh/Mask Group.png" alt="Big Ice Cream"
+                                class="w-[400px] md:w-[500px] transition-transform duration-700 group-hover:scale-110 drop-shadow-2xl">
+
+                            <!-- КАРТОЧКА С ДВИЖЕНИЕМ -->
+                            <div
+                                class="absolute -bottom-10 -left-10 md:-left-20 bg-white/70 backdrop-blur-2xl p-8 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.1)] w-80 border border-white reveal delay-3 hover:rotate-[-3deg] transition-all duration-500 cursor-pointer">
+                                <div class="flex justify-between items-center mb-4">
+                                    <span
+                                        class="bg-pink-100 text-pink-600 text-xs font-bold px-3 py-1 rounded-full">Best
+                                        Seller</span>
+                                    <div class="text-yellow-400">★★★★★</div>
+                                </div>
+                                <h3 class="font-black text-gray-800 text-2xl mb-1">Raspberry Cream</h3>
+                                <p class="text-sm text-gray-500 mb-6">Ultra premium strawberry mix</p>
+
+                                <div class="flex justify-between items-center">
+                                    <span class="text-3xl font-black text-pink-600">$1.56</span>
+                                    <button
+                                        class="bg-pink-500 hover:bg-pink-600 text-white p-4 rounded-2xl shadow-lg shadow-pink-200 transition-all active:scale-90 hover:-translate-y-1">
+                                        <svg xmlns="http://www.w3.org" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                            stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M12 4v16m8-8H4" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ПРАВАЯ ЧАСТЬ: КОНТЕНТ XXL -->
+                    <div class="space-y-10">
+                        <div class="reveal delay-1">
+                            <h1
+                                class="text-6xl md:text-8xl font-[900] text-gray-900 leading-[0.9] mb-6 tracking-tighter">
+                                Simple Way <br>
+                                <span
+                                    class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-600">Order
+                                    Food</span>
+                            </h1>
+                            <p class="text-xl md:text-2xl text-gray-500 max-w-xl leading-relaxed">
+                                Forget everything you knew about delivery. We brought the taste of premium desserts
+                                right to your fingertips
+                                with a single tap.
+                            </p>
+                        </div>
         </section>
         <section class="question_section">
             <h2>Have Question in Mind? <br> Let us help you</h2>
@@ -150,7 +377,8 @@
                     <button class="btn-sub">Subscribe</button>
                 </div>
                 <div class="payments">
-                    <i class="fa-brands fa-paypal"></i> <i class="fa-brands fa-cc-mastercard"></i> <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-paypal"></i> <i class="fa-brands fa-cc-mastercard"></i> <i
+                        class="fa-brands fa-cc-visa"></i>
                 </div>
             </div>
         </div>
